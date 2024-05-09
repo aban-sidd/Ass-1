@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Grayscale</title>
+
+    <style>
+      .nav{
+        background-image: url(./bg-masthead.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(80%);
+        
+      }
+      
+      .sec-1{
+        width: 100%;
+        background-image: url(./bg-masthead.jpg);
+        filter: brightness(80%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+      }
+      .sec-1-h{
+        min-height: 600px;
+      }
+
+      .sec-2{
+        background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+      }
+
+      .sec-2-img{
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .sec-2-h{
+        min-height: 600px;
+      }
+
+      .sec-3-h{
+        min-height: 600px;
+      }
+
+      .sec-3-2nd-t{
+        min-height: 460px;
+      
+       
+      }
+
+      .sec-4{
+        background-image: url(./pexels-dương-nhân-1529881.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .sec-4-h{
+        min-height: 600px;
+      }
+
+      .sec-4-img{
+        width: 5rem; 
+        color: white;
+      }
+
+      .sec-4-inp{
+        width: 28rem;
+      }
+
+      footer{
+        background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+      }
+
+      .sec-5-h{
+        min-height: 600px;
+      }
+
+
+      @media screen and (max-width:800px) {
+        *{
+          overflow-x: hidden;
+        }
+        .nav{
+        background-image: none;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+        filter: none;
+      }
+      .nav-a{
+        color: black!important;
+      }
+      .sec-1{
+        color: white;
+      }
+      .sec-3-h{
+        min-height: autO;
+      }
+      footer{
+        padding-top: 40px;
+      }
+      .f-con{
+        margin-top: 20px;
+      }
+
+      }
+    </style>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav px-5">
+        <div class="container ">
+          <a class="navbar-brand nav-a text-white" href="#">Grayscale</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link  active nav-a text-white" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-a text-white" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-a text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- section-1 -->
+      <section class="sec-1">
+        <div class="conatiner">
+          <div class="row sec-1-h justify-content-center align-content-center text-center">
+            <div class="col-12 col-md-6">
+              <h1 class="text-uppercase fs-1 fw-semi-bold py-3">Grayscale</h1>
+              <h5 class="text-uppercase py-3">Loremm nisi explicabo est, delectus sed quisquam suscipit et, tempora molestias! Quam.</h5>
+               <button class="text-uppercase py-2 px-4 text-light text-bg-success rounded rounded-3">get started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-2 -->
+      <section class="sec-2">
+        <div class="container">
+          <div class="row sec-2-h justify-content-center text-center py-3">
+            <div class="col-12 col-md-6">
+              <h1 class="text-uppercase text-light pb-5">build with bootstrap-5</h1>
+              <p class="text-uppercase text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex explicabo alias repudiandae laboriosam libero, possimus voluptas magni tempora veritatis iusto veniam non voluptates neque hic!</p>
+            </div>
+            <img class="sec-2-img" src="./ipad.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- section-3 -->
+      <section class="sec-3">
+        <div class="container">
+          <div class="row sec-3-h justify-content-center align-content-center">
+            <div class="col-12 col-md-7 g-4">
+                <img src="./bg-masthead.jpg" class=" img-fluid rounded rounded-3" alt="...">
+              </div>
+                <div class="col-12 col-md-5 align-self-center text-center py-3">
+              <h3>Shoreline</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius labore quidem veniam reprehenderit libero rerum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum repellat non nam aut tenetur delectus enim voluptatibus eveniet inventore impedit, recusandae minima, deserunt consequatur asperiores!</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- section-3 2nd-->
+      <section class="sec-3">
+        <div class="container bg-black g-0 text-light">
+          <div class="row sec-3-h justify-content-center align-content-center ">
+            <div class="col-12 col-md-7">
+                <img src="./bg-masthead.jpg" class=" img-fluid " alt="...">
+              </div>
+                <div class="col-12 col-md-5 align-self-center text-center py-5">
+              <h3>Shoreline</h3>
+              <p>Lorem ipsum, dolor sit amet ero rerum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum repellat non nam aut tenetur delectus enim voluptatibus eveniet inventore impedit, recusandae minima, deserunt consequatur asperiores!</p>
+            </div>
+          
+
+         
+            <div class="col-12 col-md-5 order-1 order-sm-0  align-self-center text-center py-5">
+          <h3>Shoreline</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur o rerum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum repellat non nam aut tenetur delectus enim voluptatibus eveniet inventore impedit, recusandae minima, deserunt consequatur asperiores!</p>
+        </div>
+            <div class="col-12 col-md-7 ">
+                <img src="./bg-masthead.jpg" class=" img-fluid" alt="...">
+              </div>
+            </div>
+        </div>
+
+      </section>
+
+      <!-- section-4 -->
+        <section class="sec-4">
+          <div class="container mt-5">
+            <div class="row sec-4-h justify-content-center align-content-center text-center">
+              <div class="col-12 col-md-12">
+                <img src="./481673.png" class="sec-4-img">
+                <h3 class=" text-light">subscribe to receive updates! </h3>
+                <form class="d-flex justify-content-center pt-4" role="search">
+                  <input class="form-control text-center pt-2 sec-4-inp"  type="search" placeholder="Search" aria-label="Search" >
+                  <button class="btn btn-outline-success mx-2" type="submit">Notify me</button>
+                </form></div>
+              </div>  
+            </div>
+          </section>
+         
+         
+      <!-- footer -->
+<footer>
+          <div class="container">
+            <div class="row sec-5-h justify-content-center align-content-center text-center text-dark">
+              <div class="col-12 col-md-3 bg-light mx-5 py-5 rounded-4">
+                <img src="./icons8-address-50.png" alt="">
+                <h4 class="text-uppercase">adress</h4>
+                <hr>
+                <p class="text-uppercase">4923 Market Street, Orlando Florida</p> 
+              </div>
+              <div class="col-12 col-md-3 bg-light mx-5 py-5 rounded-4 f-con">
+                <img src="./icons8-email-48.png" alt="">
+                <h4 class="text-uppercase">Email</h4>
+                <hr>
+                <p class="text-uppercase">email@gmail.com</p> 
+              </div>
+              <div class="col-12 col-md-3 bg-light mx-5 py-5 rounded-4 f-con">
+                <img src="./icons8-phone-50.png" alt="">
+                <h4 class="text-uppercase">phone</h4>
+                <hr>
+                <p class="text-uppercase">+92 023235456</p> 
+              </div>
+            </div>
+            <div class="row text-center">
+          <div class="col-12 col-md-12 py-4">
+        
+         <a href=""> <img class="px-3" style="width: 4rem;" src="./icons8-twitter-24.png" alt=""></a>
+          <a href=""><img class="px-3" style="width: 4rem;" src="./icons8-facebook-24.png" alt=""></a>
+          <a href=""><img class="px-3" style="width: 4rem;" src="./icons8-discord-24.png" alt=""></a>
+        </div>
+        <div class="col-12 col-md-12 py-4 text-light">
+        <h5>Copyright &copy; Ui Learning</h5>
+      </div>
+    </div> 
+
+      </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
